@@ -22,7 +22,7 @@ Le projet de cette année porte sur les sujets suivants :
 Un arbre lexicographique est une structure de données arborescente qui permet de mémoriser un ensemble de mots, sans répéter les parties communes des différents mots. Elle est par exemple utilisée pour stocker les mots d’un dictionnaire.
 
 ### Implémentation
-L’implémentation de l’arbre lexicographique est réalisée dans la classe `LexicographicTree`. Cette classe contient un attribut `root` de type `Node` qui représente la racine de l’arbre. La classe `Node` contient un attribut `children` de type Node qui représente les fils du noeud courant. Elle contient également un attribut `siblings` de type `Node` qui représente la soeur du noeud courant. Enfin, elle contient un attribut `letter` de type `char` qui représente la lettre du noeud courant. La classe `Node` contient également un attribut `isEndOfWord` de type `boolean` qui permet de savoir si le noeud courant est une fin de mot.
+L’implémentation de l’arbre lexicographique est réalisée dans la classe `LexicographicTree`. Cette classe contient un attribut `root` de type `Node` qui représente la racine de l’arbre. La classe `Node` contient un attribut `children` de type Node qui représente les fils du noeud courant. Elle contient également un attribut `siblings` de type `Node` qui représente la soeur du noeud courant. Enfin, elle contient un attribut `letter` de type `char` qui représente la lettre du noeud courant. La classe `Node` contient également un attribut `isEndOfWord` de type `boolean` qui permet de savoir si le noeud courant est une fin de mot.`L'arbre lexicographique permet d'enregistrer pas loin de *90 millions* de mot sur 2Go`
 
 ## Résolution d’une grille de Boggle
 ### Présentation
@@ -43,3 +43,6 @@ L’objectif de cet exercice est d’utiliser un dictionnaire pour guider le pro
 
 ### Implémentation
 L’implémentation de la cryptanalyse d’un chiffrement par substitution est réalisée dans la classe `DictionaryBasedAnalysis`. Cette classe contient un attribut `words` de type `String[]` qui représente les mots valident du cryptogramme (mots >= 3 caractères). Elle contient également un attribut `dict` de type `LexicographicTree` qui représente l’arbre lexicographique (dictionnaire).
+
+## Proposé par 
+[Tom Caufrier](https://github.com/tomcauf/)
